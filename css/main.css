@@ -188,7 +188,7 @@ div.content {
 
 .videoWrapper {
   position: relative;
-  padding-bottom: calc(var(--aspect-ratio, .5625) * 100%);
+  padding-bottom: min(calc(var(--aspect-ratio, .5625) * 100%), 70vh);
   height: 0;
 }
 .videoWrapper iframe {
@@ -208,7 +208,7 @@ titles {
   font-size: 1.5rem;
   top: 0;
   background: rgba(255,255,255,0.4);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(6px);
   padding: 60px;
   text-align: center;
   z-index: 20;
@@ -219,7 +219,7 @@ titles {
 }
 
 space {
-  padding: 60px;
+  padding: var(--size, 10px);
   color: transparent;
   background: transparent;
   display: block;
@@ -233,11 +233,6 @@ titles br {
 titles h1 {
   font-size: 400%;
   font-weight: 1000;
-  background: linear-gradient(90deg,#ff8a00,#e52e71);
-  text-shadow: none;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
 
 }
 

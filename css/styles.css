@@ -26,6 +26,13 @@ main {
 
 }
 
+main h1 {
+  display:flex;
+  column-span:all;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+
 header {
   max-width: 1200px;
   margin: 0 auto;
