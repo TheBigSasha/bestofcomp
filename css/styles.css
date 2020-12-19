@@ -1,0 +1,318 @@
+@import url("https://use.typekit.net/kyz0ydh.css");
+
+
+/* styles */
+
+:root {
+  --blue: #34495e;
+  --green: #e74c3c;
+  --yellow: #C9C243;
+  --orange: #FFA644;
+  --red: #3498db;
+}
+
+body {
+  background-color: var(--blue);
+  font-family: bebas-neue-pro, sans-serif;
+  color: #34495e;
+}
+
+main {
+  max-width: 1850px;
+  margin: auto;
+
+  padding: 60px;
+  height: 100%;
+
+}
+
+header {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 20px 0;
+}
+
+.title {
+  font-size: 2.6em;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px
+}
+
+.figure-img {
+  display: block;
+  width: 100%;
+  object: fit;
+}
+
+h2 {
+  font-size: 1.4em;
+  padding: 10px;
+}
+
+p {
+  margin-bottom: 1em;
+  padding: 0 10px;
+}
+
+.info-link {
+  text-decoration: none;
+  color: var(--green);
+  padding: 10px;
+  display: block;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  border-top: 3px solid var(--red);
+  border-radius: 3px;
+  background-color: white;
+}
+
+.options-link {
+  text-decoration: none;
+  font-size: 0.9em;
+  color: var(--red);
+}
+
+section {
+  border-radius: 16px;
+  background: #17141d;
+  /*box-shadow: -1rem 0 3rem #000;*/
+
+  transition: .2s;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.section p {
+  font-size: 20px;
+  margin: 0 0 1rem;
+  color: #bcbccf;
+}
+
+.section p b {
+  font-weight: 900;
+}
+
+.section p i {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.section extra{
+  font-size: 20px;
+  margin: 0 0 1rem;
+  color: #bcbccf;
+}
+
+.section h2 {
+  font-size: 35px;
+  font-weight: 750;
+  margin: .25rem 0 auto;
+  text-decoration: none;
+  color: inherit;
+  border: 0;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.section h2:hover {
+  background: linear-gradient(90deg,#ff8a00,#e52e71);
+  text-shadow: none;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.section img {
+  width: 100%;
+  display: inline;
+  padding: 20px;
+  border-radius: 40px;
+  margin: 0 auto;
+}
+
+.section iframe {
+  width: 100%;
+  display: inline;
+  height: 265px;
+  padding: 20px;
+  border-radius: 40px;
+  margin: 0 auto;
+}
+
+.section img:hover {
+  transform: translateZ(400px);
+  break-inside: avoid;
+  break-before: avoid;
+  break-after: avoid;
+}
+
+.section iframe:hover {
+  transform: translateZ(400px);
+  break-inside: avoid;
+  break-before: avoid;
+  break-after: avoid;
+}
+
+/*TODO: Temporary fix for these images*/
+.section div img {
+  width: 49%;
+  float: left;
+  display: block;
+  alignment: center;
+}
+
+.section big-bottom {
+
+}
+
+.section.bigtitle {
+  padding: 0;
+}
+
+.section.bigtitle-title {
+  color: white;
+  background-color: var(--red);
+  margin-bottom: 10px;
+}
+
+.section.bigbottom-link {
+  background-color: var(--green);
+  color: white;
+}
+
+.profile {
+  width: 80%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 620px) {
+  .options-link {
+    font-size: 1.4em;
+  }
+}
+
+.section:hover {
+  transform: scale(1.1) translateZ(400px);
+  box-shadow: -1rem 0 3rem #000;
+  break-inside: avoid;
+  break-before: avoid;
+  break-after: avoid;
+
+}
+
+.section:hover extra{
+  display: inline;
+}
+
+.section extra {
+  display: none;
+}
+
+.section experience{
+  border-top-color: #3498db;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  background: rgba(0,0,0,0);
+  color: white;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+printonly {
+  display: none;
+}
+
+
+@media print {
+  .section img {
+    width: 30%;
+    display: none;
+    padding: 20px;
+    border-radius: 40px;
+    margin: 0 auto;
+  }
+
+  .section iframe {
+    width: 30%;
+    display: none;
+    padding: 20px;
+    border-radius: 40px;
+    margin: 0 auto;
+  }
+
+  /*TODO: This is ratchet*/
+  .section div img {
+    display: none;
+  }
+
+  .section extra {
+    display: inline;
+  }
+
+  printonly {
+    display: inline;
+  }
+
+  .fa {
+    display: none;
+  }
+
+}
+
+@media (min-width: 850px) {
+  main {
+    column-count: 2;
+    column-gap: 20px;
+    padding: 60px;
+  }
+
+  section {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+  }
+}
+
+@media (min-width: 1280px) {
+  main {
+    column-count: 3;
+    padding: 60px;
+  }
+  section {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+  }
+}
+
+/*for phones to not have too much padding on the sides*/
+@media (max-width: 600px){
+  main{
+    padding: 20px;
+  }
+
+  canvas{
+    display: none;
+  }
+
+  .section:hover {
+    transform: scale(1.05) translateZ(400px);
+  }
+}
+
