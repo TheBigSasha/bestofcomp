@@ -186,12 +186,30 @@ div.content {
   }
 }
 
+.videoWrapper {
+  position: relative;
+  padding-bottom: calc(var(--aspect-ratio, .5625) * 100%);
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 titles {
   font-family: bebas-neue-pro, sans-serif;
   font-weight: 600;
+  background-attachment: fixed;
   font-style: normal;
-  padding-top: 100px;
-  padding-bottom: 10px;
+  position: sticky;
+  font-size: 1.5rem;
+  top: 0;
+  background: rgba(255,255,255,0.4);
+  backdrop-filter: blur(5px);
+  padding: 60px;
   text-align: center;
   z-index: 20;
   color: white;
@@ -200,17 +218,39 @@ titles {
   justify-content: center;
 }
 
+space {
+  padding: 60px;
+  color: transparent;
+  background: transparent;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
 titles br {
   padding-top: 100px;
 }
-
 titles h1 {
-  font-size: 4rem;
-  font-weight: 900;
+  font-size: 400%;
+  font-weight: 1000;
+  background: linear-gradient(90deg,#ff8a00,#e52e71);
+  text-shadow: none;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+
 }
+
+
+titles h1:hover{
+  transform: scale(1.3) translateZ(400px);
+  text-shadow: -1rem 0 3rem rgba(10,10,10,0.4);
+  background-clip: text;
+}
+
 titles h2{
-  font-size: 2rem;
-  font-weight: 500;
+  font-size: 180%;
+  font-weight: 700;
 }
 
 titles div {
@@ -468,3 +508,12 @@ textarea {
   }
 }
 
+@media  (max-width: 1000px) {
+  titles{
+    font-size: 1rem;
+    padding: 20px;
+  }
+
+
+
+}
