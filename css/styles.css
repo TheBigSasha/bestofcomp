@@ -207,6 +207,16 @@ section {
   margin-bottom: 10px;
 }
 
+space {
+  padding: var(--size, 10px);
+  color: transparent;
+  background: transparent;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+
 @media (min-width: 620px) {
   .options-link {
     font-size: 1.4em;
@@ -318,6 +328,11 @@ printonly {
 
 /*for phones to not have too much padding on the sides*/
 @media (max-width: 600px){
+  main {
+    column-count: 0;
+    padding: 60px;
+  }
+
   main{
     padding: 20px;
   }
@@ -336,3 +351,115 @@ subtle{
   alignment: center;
 }
 
+@media (min-width: 650pt) and (max-height: 800pt) {
+
+  .main {
+    display: flex;
+    padding: 8rem;
+    overflow-x: scroll;
+  }
+
+  .titles{
+    background: rgba(0,0,0,0);
+    backdrop-filter: none;
+    position: relative;
+    padding-bottom: 0;
+    font-size: max(1.3em, 15px);
+  }
+
+  .space{
+    display: none;
+    padding: 0;
+  }
+
+
+  .main h1 {
+    margin: 10px;
+    z-index: -1;
+    display: none;
+    break-inside: avoid;
+  }
+
+  .main::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  .main::-webkit-scrollbar-thumb {
+    background: #201c29;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25), inset -2px -2px 2px rgba(0,0,0,.25);
+  }
+
+  .main::-webkit-scrollbar-track {
+    background: linear-gradient(90deg,#201c29,#201c29 1px,#17141d 0,#17141d);
+  }
+
+  .section img {
+    height: 40%;
+    width: auto;
+    padding: 0;
+  }
+
+
+  .section {
+    height: 470px;
+    width: 350px;
+    min-width: 250px;
+    padding: 1.5rem;
+    border-radius: 16px;
+    background: rgba(23,20,29,0.5);
+    backdrop-filter: blur(5px);
+    box-shadow: -1rem 0 3rem #000;
+    display: flex;
+    flex-direction: column;
+    transition: .2s;
+    margin: -60px;
+    scroll-snap-align: start;
+    clear: both;
+    position: relative;
+    child-align: top;
+  }
+
+  .info-link{
+    position: sticky;
+    bottom: 0;
+  }
+
+  .info-links{
+    position: sticky;
+    bottom: 0;
+  }
+
+  .info-links info-link{
+    display: block;
+    position: relative;
+  }
+
+  .section p {
+    max-height: 30%;
+    padding: 5px;
+    overflow-x: hidden;
+  }
+
+  .section p::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  .section p::-webkit-scrollbar-thumb {
+    background: #201c29;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25), inset -2px -2px 2px rgba(0,0,0,.25);
+  }
+
+  .section p::-webkit-scrollbar-track {
+    background: linear-gradient(90deg,#201c29,#201c29 1px,#17141d 0,#17141d);
+  }
+
+  .section:focus-within~.section, .section:hover~.section {
+    transform: translateX(130px);
+  }
+
+  .section:hover {
+    transform: translateY(-1rem);
+  }
+}

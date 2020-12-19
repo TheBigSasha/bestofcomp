@@ -188,7 +188,7 @@ div.content {
 
 .videoWrapper {
   position: relative;
-  padding-bottom: min(calc(var(--aspect-ratio, .5625) * 100%), 70vh);
+  padding-bottom: min(calc(var(--aspect-ratio, .5625) * 100%), 60vh);
   height: 0;
 }
 .videoWrapper iframe {
@@ -205,11 +205,11 @@ titles {
   background-attachment: fixed;
   font-style: normal;
   position: sticky;
-  font-size: 1.5rem;
+  font-size: max(min(3vmin, 30pt), 10pt);
   top: 0;
   background: rgba(255,255,255,0.4);
   backdrop-filter: blur(6px);
-  padding: 60px;
+  padding: min(4vmin, 140pt);
   text-align: center;
   z-index: 20;
   color: white;
@@ -218,20 +218,12 @@ titles {
   justify-content: center;
 }
 
-space {
-  padding: var(--size, 10px);
-  color: transparent;
-  background: transparent;
-  display: block;
-  align-items: center;
-  justify-content: center;
-}
 
 titles br {
   padding-top: 100px;
 }
 titles h1 {
-  font-size: 400%;
+  font-size: 2.5em;
   font-weight: 1000;
 
 }
@@ -244,8 +236,7 @@ titles h1:hover{
 }
 
 titles h2{
-  font-size: 180%;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 titles div {
@@ -503,12 +494,4 @@ textarea {
   }
 }
 
-@media  (max-width: 1000px) {
-  titles{
-    font-size: 1rem;
-    padding: 20px;
-  }
 
-
-
-}
