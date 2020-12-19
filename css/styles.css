@@ -423,6 +423,7 @@ subtle{
   .info-link{
     position: sticky;
     bottom: 0;
+    padding-bottom: 0;
   }
 
   .info-links{
