@@ -412,9 +412,7 @@ subtle{
     min-width: 250px;
     padding: 1.5rem;
     border-radius: 16px;
-    background: rgba(23,20,29,0.5);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    background: rgba(23,20,29,1);
     box-shadow: -1rem 0 3rem #000;
     display: flex;
     flex-direction: column;
@@ -425,6 +423,17 @@ subtle{
     position: relative;
     child-align: top;
   }
+
+
+  /* if backdrop support: very transparent and blurred */
+  @supports ((-webkit-backdrop-filter: blur(2em)) or (backdrop-filter: blur(2em))) {
+    .section {
+      background: rgba(23,20,29,0.5);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+    }
+  }
+
 
   .info-link{
     position: sticky;
