@@ -116,6 +116,7 @@ canvas {
   width: 200px;
   background-color: rgba(0,0,0,0.5);
   backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -133,6 +134,7 @@ canvas {
 .sidebar a.active {
   background-color: rgba(20,20,20,0.4);
   backdrop-filter: saturate(0%);
+  -webkit-backdrop-filter: saturate(0%);
   color: white;
 }
 
@@ -209,6 +211,7 @@ titles {
   top: 0;
   background: rgba(255,255,255,0.4);
   backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
   padding: min(4vmin, 140pt);
   text-align: center;
   z-index: 20;

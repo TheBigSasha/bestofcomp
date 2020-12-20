@@ -366,6 +366,7 @@ subtle{
   .titles{
     background: rgba(0,0,0,0);
     backdrop-filter: none;
+    -webkit-backdrop-filter: none;
     position: relative;
     padding-bottom: 0;
     font-size: max(1.3em, 15px);
@@ -413,6 +414,7 @@ subtle{
     border-radius: 16px;
     background: rgba(23,20,29,0.5);
     backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     box-shadow: -1rem 0 3rem #000;
     display: flex;
     flex-direction: column;
