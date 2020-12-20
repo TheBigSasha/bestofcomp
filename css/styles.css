@@ -356,6 +356,21 @@ subtle{
 }
 
 @media (min-width: 1280pt) and (max-height: 600pt) and (min-aspect-ratio: 16/9), (max-height: 500pt) and (min-aspect-ratio: 1/1), (max-height: 3in) and (min-aspect-ratio: 1/1){
+  @media (max-height: 4in){
+    .main{
+      padding-right: 100px;
+      padding-top: 0;
+      padding-bottom: 0;
+      margin-right: 100px;
+      width: 166.666666667vw;
+      position: page;
+      padding-left: 0;
+      margin-left: 0;
+
+      transform: scale(0.6) translateX(-55vw);
+    }
+  }
+
   body{
     max-width: none;
   }
@@ -408,7 +423,7 @@ subtle{
   .section {
     height: 470px;
     width: 350px;
-    min-width: 250px;
+    min-width: 300px;
     padding: 1.5rem;
     border-radius: 16px;
     background: rgba(23,20,29,1);
