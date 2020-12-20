@@ -399,11 +399,6 @@ subtle{
     background: linear-gradient(90deg,#201c29,#201c29 1px,#17141d 0,#17141d);
   }
 
-  .section img {
-    height: 40%;
-    width: auto;
-    padding: 0;
-  }
 
 
   .section {
@@ -423,6 +418,14 @@ subtle{
     position: relative;
     child-align: top;
   }
+
+  .section img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    border-radius: 5px;
+  }
+
 
 
   /* if backdrop support: very transparent and blurred */
