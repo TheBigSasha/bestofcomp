@@ -369,6 +369,13 @@ subtle{
 
       transform: scale(0.6) translateX(-55vw);
     }
+
+    .info-link{
+      position: sticky;
+      bottom: 0;
+      padding-bottom: 0;
+    }
+
   }
 
   body{

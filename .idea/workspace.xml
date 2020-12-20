@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="Improve card cascade view">
+    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="Fix card cascade for very short screens (iPhone X/Xs/11pro)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -195,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608435913116</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Fix card cascade for very short screens (iPhone X/Xs/11pro)">
+      <created>1608439927220</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1608439927220</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +225,7 @@
     <MESSAGE value="Add more entries" />
     <MESSAGE value="Fix image scaling" />
     <MESSAGE value="Improve card cascade view" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improve card cascade view" />
+    <MESSAGE value="Fix card cascade for very short screens (iPhone X/Xs/11pro)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix card cascade for very short screens (iPhone X/Xs/11pro)" />
   </component>
 </project>
