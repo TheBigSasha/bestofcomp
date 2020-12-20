@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="Add webkit backdrop filters for Safari">
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="fix units">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +150,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608423471182</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add fix for no blur iOS?">
+      <created>1608425213784</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608425213784</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fix units">
+      <created>1608425230332</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1608425230332</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +183,8 @@
     <MESSAGE value="Add tag" />
     <MESSAGE value="Remove font issue for smol width screens" />
     <MESSAGE value="Change h1 scaling for iphone to be dynamic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change h1 scaling for iphone to be dynamic" />
+    <MESSAGE value="Add fix for no blur iOS?" />
+    <MESSAGE value="fix units" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix units" />
   </component>
 </project>

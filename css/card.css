@@ -150,7 +150,7 @@ a {
     margin-bottom: 0;
   overflow: auto;
   white-space: nowrap;
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .tags a {
