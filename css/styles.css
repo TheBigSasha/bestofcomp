@@ -356,11 +356,15 @@ subtle{
 }
 
 @media (min-width: 1280pt) and (max-height: 600pt) and (min-aspect-ratio: 16/9), (max-height: 500pt) and (min-aspect-ratio: 1/1), (max-height: 3in) and (min-aspect-ratio: 1/1){
+  body{
+    max-width: none;
+  }
 
   .main {
     display: flex;
-    padding: 8rem;
+    max-width: none;
     overflow-x: scroll;
+    padding: 8rem;
   }
 
   .titles{
