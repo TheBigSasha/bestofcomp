@@ -333,6 +333,10 @@ printonly {
     padding: 60px;
   }
 
+  main h1{
+    font-size: max(1.3em, 45pt);
+  }
+
   main{
     padding: 20px;
   }
