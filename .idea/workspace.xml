@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="Add new projects">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="Swap out video">
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608401842753</updated>
       <workItem from="1608401844807" duration="19806000" />
-      <workItem from="1608527399170" duration="8251000" />
+      <workItem from="1608527399170" duration="8996000" />
     </task>
     <task id="LOCAL-00001" summary="Add screenshot of SearchEngine">
       <created>1608403621363</created>
@@ -232,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608675541923</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Swap out video">
+      <created>1608678223964</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1608678223964</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +277,7 @@
     <MESSAGE value="Improve card cascade view" />
     <MESSAGE value="Fix card cascade for very short screens (iPhone X/Xs/11pro)" />
     <MESSAGE value="Add new projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add new projects" />
+    <MESSAGE value="Swap out video" />
+    <option name="LAST_COMMIT_MESSAGE" value="Swap out video" />
   </component>
 </project>
