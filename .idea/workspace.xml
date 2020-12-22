@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="Swap out video">
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="Update video link">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608401842753</updated>
       <workItem from="1608401844807" duration="19806000" />
-      <workItem from="1608527399170" duration="8996000" />
+      <workItem from="1608527399170" duration="9963000" />
     </task>
     <task id="LOCAL-00001" summary="Add screenshot of SearchEngine">
       <created>1608403621363</created>
@@ -238,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608678223964</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Update video link">
+      <created>1608679267340</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1608679267341</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +285,7 @@
     <MESSAGE value="Fix card cascade for very short screens (iPhone X/Xs/11pro)" />
     <MESSAGE value="Add new projects" />
     <MESSAGE value="Swap out video" />
-    <option name="LAST_COMMIT_MESSAGE" value="Swap out video" />
+    <MESSAGE value="Update video link" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update video link" />
   </component>
 </project>
