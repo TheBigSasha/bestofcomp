@@ -9,6 +9,11 @@
   --yellow: #C9C243;
   --orange: #FFA644;
   --red: #3498db;
+
+  --card-bg:#17141d;
+  --text-normal:white;
+
+  --hover-gradient:linear-gradient(90deg,#ff8a00,#e52e71);
 }
 
 body {
@@ -95,7 +100,7 @@ p {
 
 section {
   border-radius: 16px;
-  background: #17141d;
+  background: var(--card-bg);
   /*box-shadow: -1rem 0 3rem #000;*/
 
   transition: .2s;
@@ -136,7 +141,7 @@ section {
 }
 
 .section h2:hover {
-  background: linear-gradient(90deg,#ff8a00,#e52e71);
+  background: var(--hover-gradient);
   text-shadow: none;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -238,6 +243,17 @@ space {
 
 .section extra {
   display: none;
+}
+
+.section audio {
+  background: var(--card-bg);
+  color: var(--text-normal);
+  display: block;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  alignment: center;
 }
 
 .section experience{
@@ -355,6 +371,51 @@ subtle{
   alignment: center;
 }
 
+
+/*The below is questionable*/
+
+.submit-your-work{
+}
+
+.submit-your-work:hover{
+  transform: scale(1.3) translateZ(400px);
+
+}
+
+
+.submit-your-work h2{
+  font-size: 50pt;
+  font-weight: 800;
+}
+
+
+.submit-your-work a-container{
+  color: var(--text-normal);
+  padding: 15px;
+  display: block;
+  font-size: 22pt;
+  font-weight: 850;
+  border-radius: 15px;
+  background: var(--card-bg);
+
+}
+
+.a-container a{
+  color: var(--text-normal);
+  display: flow;
+}
+
+.submit-your-work a:hover {
+  background: var(--hover-gradient);
+  text-shadow: none;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+
+/*The above is questionable */
+
 @media (min-width: 1280pt) and (max-height: 600pt) and (min-aspect-ratio: 16/9), (max-height: 500pt) and (min-aspect-ratio: 1/1), (max-height: 3in) and (min-aspect-ratio: 1/1){
   @media (max-height: 4in){
     .main{
@@ -376,6 +437,10 @@ subtle{
       padding-bottom: 0;
     }
 
+  }
+
+  .submit-your-work{
+    display: none;
   }
 
   body{
@@ -508,3 +573,4 @@ subtle{
     transform: translateY(-1rem);
   }
 }
+
