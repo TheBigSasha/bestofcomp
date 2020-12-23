@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="Add link to main site from cardview.html">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="Make plug at bottom of index clickable" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608401842753</updated>
       <workItem from="1608401844807" duration="19806000" />
-      <workItem from="1608527399170" duration="13671000" />
+      <workItem from="1608527399170" duration="14207000" />
     </task>
     <task id="LOCAL-00001" summary="Add screenshot of SearchEngine">
       <created>1608403621363</created>
@@ -294,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608684631253</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Make plug at bottom of index clickable">
+      <created>1608685232487</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1608685232487</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,7 +318,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add video player and cooler UI" />
     <MESSAGE value="Add alt cardview" />
     <MESSAGE value="Fix padding bottom on cascade card view" />
     <MESSAGE value="Fix rules around card cascade" />
@@ -338,6 +342,7 @@
     <MESSAGE value="Improve cardview for embed" />
     <MESSAGE value="Improve cardview further for embedded users" />
     <MESSAGE value="Add link to main site from cardview.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add link to main site from cardview.html" />
+    <MESSAGE value="Make plug at bottom of index clickable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make plug at bottom of index clickable" />
   </component>
 </project>
