@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="Add cards only view">
+    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="improve cardview">
+      <change afterPath="$PROJECT_DIR$/css/cardview.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cardview.html" beforeDir="false" afterPath="$PROJECT_DIR$/cardview.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608401842753</updated>
       <workItem from="1608401844807" duration="19806000" />
-      <workItem from="1608527399170" duration="11799000" />
+      <workItem from="1608527399170" duration="12504000" />
     </task>
     <task id="LOCAL-00001" summary="Add screenshot of SearchEngine">
       <created>1608403621363</created>
@@ -259,7 +261,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608683094971</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="improve cardview">
+      <created>1608683282251</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1608683282251</updated>
+    </task>
+    <task id="LOCAL-00030" summary="improve cardview">
+      <created>1608683348270</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1608683348270</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,6 +318,7 @@
     <MESSAGE value="Update video link" />
     <MESSAGE value="update video" />
     <MESSAGE value="Add cards only view" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add cards only view" />
+    <MESSAGE value="improve cardview" />
+    <option name="LAST_COMMIT_MESSAGE" value="improve cardview" />
   </component>
 </project>
