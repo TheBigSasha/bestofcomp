@@ -499,7 +499,6 @@ subtle{
     padding: 1.5rem;
     border-radius: 16px;
     background: rgba(23,20,29,1);
-    box-shadow: -1rem 0 3rem #000;
     display: flex;
     flex-direction: column;
     transition: .2s;
@@ -571,5 +570,8 @@ subtle{
 
   .section:hover {
     transform: translateY(-1rem);
+    box-shadow: -1rem 0 3rem #000;
+
   }
+
 
