@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="Make cardview stuff open in new tab">
+    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="Easter egg: Clicking on Assignment 1 links to a download of a free 8k wallpaper of the bee image, courtesy of sashaphoto.ca &lt;3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cardview.html" beforeDir="false" afterPath="$PROJECT_DIR$/cardview.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608401842753</updated>
       <workItem from="1608401844807" duration="19806000" />
-      <workItem from="1608527399170" duration="15854000" />
+      <workItem from="1608527399170" duration="17628000" />
     </task>
     <task id="LOCAL-00001" summary="Add screenshot of SearchEngine">
       <created>1608403621363</created>
@@ -323,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608686378778</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Easter egg: Clicking on Assignment 1 links to a download of a free 8k wallpaper of the bee image, courtesy of sashaphoto.ca &lt;3">
+      <created>1608687388043</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1608687388043</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,7 +350,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Use inch unit to fix android version?" />
     <MESSAGE value="Visible change just to test" />
     <MESSAGE value="Add tag" />
     <MESSAGE value="Remove font issue for smol width screens" />
@@ -367,6 +374,7 @@
     <MESSAGE value="Add screeny of min stack gui" />
     <MESSAGE value="Change links in cardview to take users to the full site rather than try to embed github (which does not work)" />
     <MESSAGE value="Make cardview stuff open in new tab" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make cardview stuff open in new tab" />
+    <MESSAGE value="Easter egg: Clicking on Assignment 1 links to a download of a free 8k wallpaper of the bee image, courtesy of sashaphoto.ca &lt;3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Easter egg: Clicking on Assignment 1 links to a download of a free 8k wallpaper of the bee image, courtesy of sashaphoto.ca &lt;3" />
   </component>
 </project>
