@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="Improve cardview for embed">
+    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="Improve cardview further for embedded users">
       <change beforePath="$PROJECT_DIR$/cardview.html" beforeDir="false" afterPath="$PROJECT_DIR$/cardview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/cardview.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/cardview.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608401842753</updated>
       <workItem from="1608401844807" duration="19806000" />
-      <workItem from="1608527399170" duration="12820000" />
+      <workItem from="1608527399170" duration="13120000" />
     </task>
     <task id="LOCAL-00001" summary="Add screenshot of SearchEngine">
       <created>1608403621363</created>
@@ -281,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608683990725</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Improve cardview further for embedded users">
+      <created>1608684422525</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1608684422525</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +306,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add dviz screeny" />
     <MESSAGE value="Beautify the site" />
     <MESSAGE value="Add video player and cooler UI" />
     <MESSAGE value="Add alt cardview" />
@@ -325,6 +330,7 @@
     <MESSAGE value="Add cards only view" />
     <MESSAGE value="improve cardview" />
     <MESSAGE value="Improve cardview for embed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improve cardview for embed" />
+    <MESSAGE value="Improve cardview further for embedded users" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improve cardview further for embedded users" />
   </component>
 </project>
