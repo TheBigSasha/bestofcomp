@@ -1,4 +1,4 @@
-# bestofcomp250
+# bestofcomp
 A website to show off the coolest projects of COMP250 in Fall 2020
 
 See it in action at (bestofcomp.com)[https://bestofcomp.com/]
