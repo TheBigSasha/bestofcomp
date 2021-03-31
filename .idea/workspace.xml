@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment=":sparkles: add internship info page :heart:">
+    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment=":sparkles: add links :sparkles:">
+      <change afterPath="$PROJECT_DIR$/css/links.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/intern.html" beforeDir="false" afterPath="$PROJECT_DIR$/intern.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +101,7 @@
       <updated>1608401842753</updated>
       <workItem from="1608401844807" duration="19806000" />
       <workItem from="1608527399170" duration="17628000" />
-      <workItem from="1617216515715" duration="967000" />
+      <workItem from="1617216515715" duration="1584000" />
     </task>
     <task id="LOCAL-00001" summary="Add screenshot of SearchEngine">
       <created>1608403621363</created>
@@ -376,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617216623784</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary=":sparkles: add links :sparkles:">
+      <created>1617217714927</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1617217714927</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,7 +403,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add tag" />
     <MESSAGE value="Remove font issue for smol width screens" />
     <MESSAGE value="Change h1 scaling for iphone to be dynamic" />
     <MESSAGE value="Add fix for no blur iOS?" />
@@ -421,6 +427,7 @@
     <MESSAGE value="Make cardview stuff open in new tab" />
     <MESSAGE value="Easter egg: Clicking on Assignment 1 links to a download of a free 8k wallpaper of the bee image, courtesy of sashaphoto.ca &lt;3" />
     <MESSAGE value=":sparkles: add internship info page :heart:" />
-    <option name="LAST_COMMIT_MESSAGE" value=":sparkles: add internship info page :heart:" />
+    <MESSAGE value=":sparkles: add links :sparkles:" />
+    <option name="LAST_COMMIT_MESSAGE" value=":sparkles: add links :sparkles:" />
   </component>
 </project>

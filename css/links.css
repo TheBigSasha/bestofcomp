@@ -1,0 +1,24 @@
+a{
+  color: black;
+  padding: 10px;
+  margin:20px;
+  border-radius: 10pt;
+  -webkit-backdrop-filter: brightness(10%);
+  backdrop-filter: brightness(10%);
+  display: block;
+  background: white;
+  width: auto;
+  font-weight: 600;
+  font-size: 20pt;
+}
+h1{
+  font-size: 44pt;
+}
+h2{font-size: 27pt; font-weight: 1000}
+
+i{
+  font-size: 20pt;
+
+  font-style: italic;
+  font-weight: 400;
+}
