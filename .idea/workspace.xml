@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment=":sparkles: we never go out of style :music-note:">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="Change site title :sparkles:">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +100,7 @@
       <workItem from="1608401844807" duration="19806000" />
       <workItem from="1608527399170" duration="17628000" />
       <workItem from="1617216515715" duration="1584000" />
-      <workItem from="1617979153869" duration="1593000" />
+      <workItem from="1617979153869" duration="2236000" />
     </task>
     <task id="LOCAL-00001" summary="Add screenshot of SearchEngine">
       <created>1608403621363</created>
@@ -396,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617899895435</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Change site title :sparkles:">
+      <created>1618074628899</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1618074628899</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,7 +423,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add fix for no blur iOS?" />
     <MESSAGE value="fix units" />
     <MESSAGE value="Fix overflow on tags" />
     <MESSAGE value="Add more entries" />
@@ -441,6 +447,7 @@
     <MESSAGE value=":sparkles: add links :sparkles:" />
     <MESSAGE value=":sparkles: add more links :heart:" />
     <MESSAGE value=":sparkles: we never go out of style :music-note:" />
-    <option name="LAST_COMMIT_MESSAGE" value=":sparkles: we never go out of style :music-note:" />
+    <MESSAGE value="Change site title :sparkles:" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change site title :sparkles:" />
   </component>
 </project>
