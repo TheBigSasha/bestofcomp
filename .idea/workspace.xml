@@ -4,21 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="Change site title :sparkles:">
-      <change afterPath="$PROJECT_DIR$/2020.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/2021/businesscards.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/2021/businesscards.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/2021/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/2021/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/2021/scrolling.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/2021/scrolling.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/2021/stacked.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/scrolling.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/slideshow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/bestofcomp250.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bestofcomp250.iml" afterDir="false" />
+    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="First draft of the 2021 site">
+      <change afterPath="$PROJECT_DIR$/2021.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/2021/stacked.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/2021/stacked.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +115,7 @@
       <workItem from="1617216515715" duration="1584000" />
       <workItem from="1617979153869" duration="2236000" />
       <workItem from="1620009175602" duration="1375000" />
-      <workItem from="1620013217398" duration="3636000" />
+      <workItem from="1620013217398" duration="5509000" />
     </task>
     <task id="LOCAL-00001" summary="Add screenshot of SearchEngine">
       <created>1608403621363</created>
@@ -427,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618074628899</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="First draft of the 2021 site">
+      <created>1620017148446</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1620017148446</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,7 +445,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="fix units" />
     <MESSAGE value="Fix overflow on tags" />
     <MESSAGE value="Add more entries" />
     <MESSAGE value="Fix image scaling" />
@@ -472,6 +469,7 @@
     <MESSAGE value=":sparkles: add more links :heart:" />
     <MESSAGE value=":sparkles: we never go out of style :music-note:" />
     <MESSAGE value="Change site title :sparkles:" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change site title :sparkles:" />
+    <MESSAGE value="First draft of the 2021 site" />
+    <option name="LAST_COMMIT_MESSAGE" value="First draft of the 2021 site" />
   </component>
 </project>
