@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="Change site title :sparkles:">
+      <change afterPath="$PROJECT_DIR$/2020.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/2021/businesscards.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/2021/businesscards.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/2021/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/2021/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/2021/scrolling.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/2021/scrolling.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/2021/stacked.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/scrolling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/slideshow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/bestofcomp250.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bestofcomp250.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +36,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -56,15 +74,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css/2021" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alexa\IdeaProjects\bestofcomp\css\2021" />
+      <recent name="C:\Users\alexa\IdeaProjects\bestofcomp\js" />
+      <recent name="C:\Users\alexa\IdeaProjects\bestofcomp\css" />
       <recent name="C:\Users\alexa\WebstormProjects\bestofcomp250\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alexa\IdeaProjects\bestofcomp\css\2021" />
       <recent name="C:\Users\alexa\WebstormProjects\bestofcomp250\img" />
     </key>
   </component>
@@ -101,6 +123,8 @@
       <workItem from="1608527399170" duration="17628000" />
       <workItem from="1617216515715" duration="1584000" />
       <workItem from="1617979153869" duration="2236000" />
+      <workItem from="1620009175602" duration="1375000" />
+      <workItem from="1620013217398" duration="3636000" />
     </task>
     <task id="LOCAL-00001" summary="Add screenshot of SearchEngine">
       <created>1608403621363</created>
