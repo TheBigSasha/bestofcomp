@@ -161,3 +161,22 @@ https://www.cssscript.com/polaroid-like-stacked-image-slideshow/
     background-position: 0% 50%;
   }
 }
+
+.lottieWrapper{
+  width: 300vw;
+  height: 300vw;
+  position: fixed;
+  top: 0;
+
+}
+
+.lottieWrapper {
+
+}
+.lottieWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+}
