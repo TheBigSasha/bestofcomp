@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment=":sparkles: add animations :star:">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/2021/stacked.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/2021/stacked.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/data.html" beforeDir="false" afterPath="$PROJECT_DIR$/img/data.html" afterDir="false" />
+    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="It's pretty :heart:">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +111,7 @@
       <workItem from="1617216515715" duration="1584000" />
       <workItem from="1617979153869" duration="2236000" />
       <workItem from="1620009175602" duration="1375000" />
-      <workItem from="1620013217398" duration="6176000" />
+      <workItem from="1620013217398" duration="6792000" />
     </task>
     <task id="LOCAL-00001" summary="Add screenshot of SearchEngine">
       <created>1608403621363</created>
@@ -431,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620021022620</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="It's pretty :heart:">
+      <created>1620021815243</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1620021815243</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,7 +455,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add more entries" />
     <MESSAGE value="Fix image scaling" />
     <MESSAGE value="Improve card cascade view" />
     <MESSAGE value="Fix card cascade for very short screens (iPhone X/Xs/11pro)" />
@@ -476,6 +479,7 @@
     <MESSAGE value="Change site title :sparkles:" />
     <MESSAGE value="First draft of the 2021 site" />
     <MESSAGE value=":sparkles: add animations :star:" />
-    <option name="LAST_COMMIT_MESSAGE" value=":sparkles: add animations :star:" />
+    <MESSAGE value="It's pretty :heart:" />
+    <option name="LAST_COMMIT_MESSAGE" value="It's pretty :heart:" />
   </component>
 </project>
