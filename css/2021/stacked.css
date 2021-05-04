@@ -104,17 +104,17 @@ https://www.cssscript.com/polaroid-like-stacked-image-slideshow/
 }
 
 .image.slide-right {
-  -moz-transform: rotate(290deg) translateX(250px);
-  -ms-transform: rotate(290deg) translateX(250px);
-  -webkit-transform: rotate(290deg) translateX(250px);
-  transform: rotate(290deg) translateX(250px);
+  -moz-transform: rotate(120deg) translateX(250px);
+  -ms-transform: rotate(120deg) translateX(250px);
+  -webkit-transform: rotate(120deg) translateX(250px);
+  transform: rotate(120deg) translateX(250px);
 }
 
 .image.slide-left {
-  -moz-transform: rotate(-290deg) translateX(-250px);
-  -ms-transform: rotate(-290deg) translateX(-250px);
-  -webkit-transform: rotate(-290deg) translateX(-250px);
-  transform: rotate(-290deg) translateX(-250px);
+  -moz-transform: rotate(-120deg) translateX(-250px);
+  -ms-transform: rotate(-120deg) translateX(-250px);
+  -webkit-transform: rotate(-120deg) translateX(-250px);
+  transform: rotate(-120deg) translateX(-250px);
 }
 
 .image.back { z-index: 1; }

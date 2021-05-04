@@ -5,6 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="It's pretty :heart:">
+      <change afterPath="$PROJECT_DIR$/3d.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/2021/threed.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/2021/threed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/parallax.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/2021/tn-wassim-chess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/stacked-slideshow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/threed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/bestofcomp250.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bestofcomp250.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/2021/stacked.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/2021/stacked.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,14 +71,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/css/2021" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\alexa\IdeaProjects\bestofcomp\css\2021" />
       <recent name="C:\Users\alexa\IdeaProjects\bestofcomp\js" />
+      <recent name="C:\Users\alexa\IdeaProjects\bestofcomp\img\2021" />
+      <recent name="C:\Users\alexa\IdeaProjects\bestofcomp\css\2021" />
       <recent name="C:\Users\alexa\IdeaProjects\bestofcomp\css" />
       <recent name="C:\Users\alexa\WebstormProjects\bestofcomp250\css" />
     </key>
@@ -92,6 +104,28 @@
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bestofcomp250/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="bestofcomp250" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.index.html" />
@@ -112,6 +146,8 @@
       <workItem from="1617979153869" duration="2236000" />
       <workItem from="1620009175602" duration="1375000" />
       <workItem from="1620013217398" duration="6792000" />
+      <workItem from="1620095208882" duration="2165000" />
+      <workItem from="1620097541934" duration="1923000" />
     </task>
     <task id="LOCAL-00001" summary="Add screenshot of SearchEngine">
       <created>1608403621363</created>
