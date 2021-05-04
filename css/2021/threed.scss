@@ -1,11 +1,16 @@
 :root {
-  --scenePerspective: 1;
+  --scenePerspective: 2;
   --scenePerspectiveOriginX: 50;
   --scenePerspectiveOriginY: 30;
   --itemZ: 2;
-  --cameraSpeed: 150; // Where 1 is the fastest
-  --cameraZ: 0;
+  --cameraSpeed: 300; // Where 1 is the fastest
+  --cameraZ: 15;
   --viewportHeight: 0;
+}
+@media only screen and (max-width: 600px) {
+  :root {
+    --scenePerspective: 0.5;
+  }
 }
 
 // Set 3D scene
@@ -43,20 +48,29 @@
         @media only screen and (min-width: 600px) {
           width: 45%;
         }
+        @media only screen and (min-width: 600px) {
 
+          &:nth-child(2n) {
+            left: 15%;
+          }
+
+          &:nth-child(2n + 1) {
+            right: 15%;
+          }
+        }
         &:nth-child(2n) {
-          left: 0;
+          left: 0%;
         }
 
         &:nth-child(2n + 1) {
-          right: 0;
+          right: 0%;
         }
 
         @for $i from 0 through 25 {
           &:nth-child(#{$i}) {
             transform: translate3D(
                 random(50) - 25 * 1%,
-                random(100) - 50 * 1%,
+                random(70) - 35 * 1%,
                 calc(var(--itemZ) * var(--cameraSpeed) * #{$i} * -1px)
             );
           }
@@ -65,8 +79,6 @@
     }
   }
 }
-
-
 
 // ----------
 // Styling
@@ -79,15 +91,16 @@
 }
 
 body {
-  background-color: hsl(231, 15%, 18%);
+  background-color: hsl(0, 0, 0);
   color: hsl(231, 15%, 18%);
   padding: 0;
   margin: 0;
+  font-size: 1.5rem;
 }
 
 h1 {
   font-family: 'Manrope', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.5em;
   color: hsl(0, 0%, 100%);
   margin: 0;
   position: fixed;
@@ -116,14 +129,14 @@ h1 {
 
     h2 {
       margin-top: 0;
-      font-family: 'Manrope', sans-serif;
-      font-size: 1.5rem;
+      font-family: 'Manrope', sans serif;
+      font-size: 1.5em;
     }
 
-    @for $i from 0 through 25 {
-      &:nth-child(#{$i}) {
-        background-color: hsl(-30 + ($i * 30), 100%, 88%);
+      &:nth-child(n) {
+        background-color: white;
+        border-radius: 20px;
+        max-width: 600px;
       }
     }
   }
-}
