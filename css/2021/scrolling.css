@@ -109,14 +109,14 @@ iframe {
 
 .section__text h2{
     display: block;
-  text-shadow: 0 2px 3px rgba(0,0,0,0.5);
+  text-shadow: 0 2px 3px rgba(0,0,0,0.7);
 }
 
 
 .section__text h3{
   display: block;
   font-size: min(30pt, 2vw);
-  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+  text-shadow: 0 1px 2px rgba(0,0,0,0.7);
 
 }
 
@@ -279,4 +279,10 @@ mobile-only{
     margin-right: 15px;
     font-size: 1.5em;
   }
+}
+
+.blurry_bg{
+  background: rgba(0,0,0,0);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
 }
