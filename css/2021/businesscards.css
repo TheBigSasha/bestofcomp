@@ -120,14 +120,3 @@ body {
   transform: translateX(100%);
   transition: all 1.2s ease-in-out;
 }
-
-a {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  color: #07f;
-  font-size: 14px;
-  font-weight: 700;
-  width: 126px;
-  height: 22px;
-}

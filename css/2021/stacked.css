@@ -126,6 +126,8 @@ https://www.cssscript.com/polaroid-like-stacked-image-slideshow/
   color: black;
   padding: 30pt;
   border-radius: 20px;
+  overflow: hidden;
+
 }
 
 .card h1{

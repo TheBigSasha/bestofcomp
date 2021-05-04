@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="Code background :matrix:">
-      <change afterPath="$PROJECT_DIR$/img/2021/Schematics2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/2021/dtviz.png" afterDir="false" />
+    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="Populate 3d View">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3d.html" beforeDir="false" afterPath="$PROJECT_DIR$/3d.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/threed.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/threed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/2021/businesscards.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/2021/businesscards.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/2021/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/2021/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/2021/stacked.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/2021/stacked.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,14 +141,7 @@
       <workItem from="1620009175602" duration="1375000" />
       <workItem from="1620013217398" duration="6792000" />
       <workItem from="1620095208882" duration="2165000" />
-      <workItem from="1620097541934" duration="9270000" />
-    </task>
-    <task id="LOCAL-00001" summary="Add screenshot of SearchEngine">
-      <created>1608403621363</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1608403621363</updated>
+      <workItem from="1620097541934" duration="10250000" />
     </task>
     <task id="LOCAL-00002" summary="Add dviz screeny">
       <created>1608410014840</created>
@@ -486,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620106604980</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Populate 3d View">
+      <created>1620108063792</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1620108063792</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,7 +506,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fix card cascade for very short screens (iPhone X/Xs/11pro)" />
     <MESSAGE value="Add new projects" />
     <MESSAGE value="Swap out video" />
     <MESSAGE value="Update video link" />
@@ -531,6 +530,7 @@
     <MESSAGE value="It's pretty :heart:" />
     <MESSAGE value="Add 3d flow properly" />
     <MESSAGE value="Code background :matrix:" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code background :matrix:" />
+    <MESSAGE value="Populate 3d View" />
+    <option name="LAST_COMMIT_MESSAGE" value="Populate 3d View" />
   </component>
 </project>

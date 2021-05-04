@@ -316,3 +316,7 @@ html, body{
   pointer-events: none
 }
 
+a {
+  color: white;
+}
+
