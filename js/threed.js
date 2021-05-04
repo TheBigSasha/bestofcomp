@@ -15,18 +15,11 @@ const perspectiveOrigin = {
 };
 
 document.addEventListener("DOMContentLoaded", function() {
-  axios
-    .get("https://ghibliapi.herokuapp.com/films")
-    .then(function(response) {
-      films = response.data;
-      appendFilms(films);
+
       window.addEventListener("scroll", moveCamera);
       window.addEventListener("mousemove", moveCameraAngle);
       setSceneHeight();
-    })
-    .catch(function(error) {
-      console.log(error);
-    });
+
 });
 
 function moveCameraAngle(event) {
@@ -58,7 +51,7 @@ function moveCamera() {
 }
 
 function setSceneHeight() {
-  const numberOfItems = films.length; // Or number of items you have in `.scene3D`
+  const numberOfItems = document.querySelector(".scene3D").childNodes.length; // Or number of items you have in `.scene3D`
   const itemZ = parseFloat(
     getComputedStyle(document.documentElement).getPropertyValue("--itemZ")
   );

@@ -11,115 +11,84 @@
 
 <div class="viewport">
   <div class="scene3D-container">
-    <div class="scene3D"></div>
+    <div class="scene3D">
+
+      <div>
+        <h1>Chess</h1>
+        <h2>Wassim Jabbour</h2>
+        <img src="img/2021/tn-wassim-chess.png" alt="icon"/>
+        <p>A fully featured chess game including an alpha-beta pruning AI, a GUI</p>
+        <a href="https://github.com/WassimJabz/Chess">View on GitHub</a>
+      </div>
+
+
+      <div>
+        <h1>Assignment 1 Tester</h1>
+        <h2>Magnus Gao</h2>
+        <h3>louis-hildebrand, eozturk2, 3ysarasty, TheBigSasha, zichzhang, lberardelli, Gadiguibou</h3>
+        <p>A robust tester of Assignment 1 with nearly 1000 lines of code, contributed to by at least 9 people.</p>
+        <a href="https://github.com/MAGNUSGAO/COMP250-A1-TEST">View on GitHub</a>
+      </div>
+
+      <div>
+        <h1>Assignment 2 Tester</h1>
+        <h2>Louis Hildebrand</h2>
+        <h3>Gadiguibou, MAGNUSGAO, ysarasty</h3>
+        <p>A robust tester of Assignment 2 with nearly 1000 lines of code, contributed to by at least 9 people.</p>
+        <a href="https://github.com/Gadiguibou/comp-250-assignment-2-tester">View on GitHub</a>
+      </div>
+
+      <div>
+        <h1>Assignment 3 Tester</h1>
+        <h2>Louis Hildebrand</h2>
+        <h3>Gadiguibou</h3>
+        <img src="img/2021/dtviz.png" alt="icon"/>
+        <p>A robust tester of Assignment 3 featuring a visualizer for the decision tree.</p>
+        <a href="https://github.com/louis-hildebrand/COMP250-A3-Tester">View on GitHub</a>
+      </div>
+
+      <div>
+        <h1>Final Tester</h1>
+        <h2>Wassim Jabbour</h2>
+        <h3>louis-hildebrand, MAGNUSGAO</h3>
+        <img src="img/2021/viz.png" alt="icon"/>
+        <p>A tester for the final assignment, which includes speed testing, correctness testing, and integration with the leaderboard system.</p>
+        <a href="https://github.com/WassimJabz/COMP250_FinalProjectTester">View on GitHub</a>
+        <a href="http://onfactorial.com/463">View Leaderboard Results</a>
+
+      </div>
+
+
+    </div>
   </div>
 </div>
-<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="js/threed.js"></script>
 
-<script>
-  let films = [];
-
-  const perspectiveOrigin = {
-    x: parseFloat(
-      getComputedStyle(document.documentElement).getPropertyValue(
-        "--scenePerspectiveOriginX"
-      )
-    ),
-    y: parseFloat(
-      getComputedStyle(document.documentElement).getPropertyValue(
-        "--scenePerspectiveOriginY"
-      )
-    ),
-    maxGap: 10
-  };
-
-  document.addEventListener("DOMContentLoaded", function() {
-    axios
-      .get("https://ghibliapi.herokuapp.com/films")
-      .then(function(response) {
-        films = response.data;
-        appendFilms(films);
-        window.addEventListener("scroll", moveCamera);
-        window.addEventListener("mousemove", moveCameraAngle);
-        setSceneHeight();
-      })
-      .catch(function(error) {
-        console.log(error);
-      });
-  });
-
-  function moveCameraAngle(event) {
-    const xGap =
-      (((event.clientX - window.innerWidth / 2) * 100) /
-        (window.innerWidth / 2)) *
-      -1;
-    const yGap =
-      (((event.clientY - window.innerHeight / 2) * 100) /
-        (window.innerHeight / 2)) *
-      -1;
-    const newPerspectiveOriginX =
-      perspectiveOrigin.x + (xGap * perspectiveOrigin.maxGap) / 100;
-    const newPerspectiveOriginY =
-      perspectiveOrigin.y + (yGap * perspectiveOrigin.maxGap) / 100;
-
-    document.documentElement.style.setProperty(
-      "--scenePerspectiveOriginX",
-      newPerspectiveOriginX
-    );
-    document.documentElement.style.setProperty(
-      "--scenePerspectiveOriginY",
-      newPerspectiveOriginY
-    );
-  }
-
-  function moveCamera() {
-    document.documentElement.style.setProperty("--cameraZ", window.pageYOffset);
-  }
-
-  function setSceneHeight() {
-    const numberOfItems = films.length; // Or number of items you have in `.scene3D`
-    const itemZ = parseFloat(
-      getComputedStyle(document.documentElement).getPropertyValue("--itemZ")
-    );
-    const scenePerspective = parseFloat(
-      getComputedStyle(document.documentElement).getPropertyValue(
-        "--scenePerspective"
-      )
-    );
-    const cameraSpeed = parseFloat(
-      getComputedStyle(document.documentElement).getPropertyValue("--cameraSpeed")
-    );
-
-    const height =
-      window.innerHeight +
-      scenePerspective * cameraSpeed +
-      itemZ * cameraSpeed * numberOfItems;
-
-    // Update --viewportHeight value
-    document.documentElement.style.setProperty("--viewportHeight", height);
-  }
-
-  function createFilmItem(film) {
-    return `<div>
-    <h2>${film.title}</h2>
-    <p>Year: ${film.release_date}</p>
-    <p>Director: ${film.director}</p>
-    <p>${film.description}</p>
-  </div>`;
-  }
-
-  function appendFilms(films) {
-    const filmsEl = document.querySelector(".viewport .scene3D");
-    let filmsNodes = [];
-
-    for (film of films) {
-      filmsNodes.push(createFilmItem(film));
-    }
-
-    filmsEl.innerHTML = filmsNodes.join(" ");
-  }
-
-</script>
 </body>
+<style>
+  .scene3D img{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-height: 60%;
+  }
+
+  .scene3D div h1{
+    color: black;
+    position: unset;
+    float: unset;
+    text-align: left;
+    font-size: 1.3em;
+    margin-bottom: 0;
+  }
+
+  .scene3D div h2{
+    margin-bottom:  0;
+  }
+
+  .scene3D div h3{
+    margin-top: 0;
+  }
+</style>
 </html>
 
