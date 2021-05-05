@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="Add better cards :heart:">
+    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment=":star: picture lock :star:">
+      <change afterPath="$PROJECT_DIR$/anim/BOC2021.aep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anim/big-inner.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anim/big-outer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anim/icons.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anim/small-outer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anim/spinner_1.ai" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3d.html" beforeDir="false" afterPath="$PROJECT_DIR$/3d.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,14 +148,7 @@
       <workItem from="1620095208882" duration="2165000" />
       <workItem from="1620097541934" duration="13157000" />
       <workItem from="1620146283180" duration="599000" />
-      <workItem from="1620156985600" duration="5950000" />
-    </task>
-    <task id="LOCAL-00005" summary="Add video player and cooler UI">
-      <created>1608413624824</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1608413624824</updated>
+      <workItem from="1620156985600" duration="7742000" />
     </task>
     <task id="LOCAL-00006" summary="Add alt cardview">
       <created>1608417648376</created>
@@ -484,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620195474751</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary=":star: picture lock :star:">
+      <created>1620195690365</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1620195690365</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,7 +513,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Update video link" />
     <MESSAGE value="update video" />
     <MESSAGE value="Add cards only view" />
     <MESSAGE value="improve cardview" />
@@ -529,7 +537,8 @@
     <MESSAGE value="Populate 3d View" />
     <MESSAGE value="Fixup clickability of elements" />
     <MESSAGE value="Add better cards :heart:" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add better cards :heart:" />
+    <MESSAGE value=":star: picture lock :star:" />
+    <option name="LAST_COMMIT_MESSAGE" value=":star: picture lock :star:" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -539,6 +548,12 @@
           <line>288</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/img/data.html</url>
+          <line>55</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
