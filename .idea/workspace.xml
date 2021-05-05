@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="Fixup clickability of elements">
-      <change afterPath="$PROJECT_DIR$/css/2021/plugin/prism-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/plugin/prism-light.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/2021/stacked.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/2021/stacked.css" afterDir="false" />
+    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="Add better cards :heart:">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,14 +139,7 @@
       <workItem from="1620095208882" duration="2165000" />
       <workItem from="1620097541934" duration="13157000" />
       <workItem from="1620146283180" duration="599000" />
-      <workItem from="1620156985600" duration="5633000" />
-    </task>
-    <task id="LOCAL-00004" summary="Beautify the site">
-      <created>1608412909338</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1608412909338</updated>
+      <workItem from="1620156985600" duration="5950000" />
     </task>
     <task id="LOCAL-00005" summary="Add video player and cooler UI">
       <created>1608413624824</created>
@@ -488,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620192682523</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Add better cards :heart:">
+      <created>1620195474750</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1620195474751</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -508,7 +504,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Swap out video" />
     <MESSAGE value="Update video link" />
     <MESSAGE value="update video" />
     <MESSAGE value="Add cards only view" />
@@ -533,7 +528,8 @@
     <MESSAGE value="Code background :matrix:" />
     <MESSAGE value="Populate 3d View" />
     <MESSAGE value="Fixup clickability of elements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixup clickability of elements" />
+    <MESSAGE value="Add better cards :heart:" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add better cards :heart:" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
