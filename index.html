@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="css/2021/scrolling.css">
   <link rel="stylesheet" href="css/2021/stacked.css">
   <link rel="stylesheet" href="css/2021/businesscards.css">
-
+  <link rel="stylesheet" href="css/2021/plugin/prism-light.css">
   <!--  Library for slideshows-->
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
@@ -74,7 +74,6 @@
       style="background-image: none;"
     >
     <iframe src="code.html" style="min-width: 100vw; min-height: 100vh"></iframe>
-
     </div>
 
 
@@ -96,29 +95,63 @@
       style="background-image: none;"
     >
       <div class="images" style="transform: translateY(20vh)">
-        <div class="image card">
-          <h1 class="test_score">19500</h1><h1>Emma Tomiuk</h1>
-          <!--          TODO: Proper scores-->
+        <div class="image card flexFont">
+          <h1 class="test_score">14487</h1><h1>Emma Tomiuk</h1>
           <h3>Human-like Solving</h3>
-          <p>
-            The approach I took was fairly simple since it was basically what I would do when solving a sudoku by hand. The aspect of my code that greatly optimized the performance was the use of a hashtable that mapped keys – integers that represented a specific cell on the sudoku grid – to a list of possible numbers that could go in that grid, similar to how we write down possible numbers in a sudoku solved by hand. Using this hasthable decreased the number of times we needed to backtrack.
+          <p class="smaller">
+            The aspect of my code that greatly optimized the performance was the use of a hashtable that mapped keys – integers that represented a specific cell on the sudoku grid...
           </p>
+<!--          <pre ><code class="language-java">-->
+<!--            void initializeMatrix(){-->
+<!--     for(every entry in the possibilities matrix)-->
+<!--          store a series of N 1s, where N is the size^2 of the sudoku (9 for a 3x3)-->
+<!--          //As at the beginning we assume every cell can store every number-->
+
+<!--     for(every entry in the sudoku grid)-->
+<!--          if(entry is not 0)-->
+<!--                apply the bitmask to the affected squares in the possibilities matrix (row, col, ...)-->
+<!--                //Applying the bitmask means setting the corresponding digit of the bitfield to 0-->
+<!-- }-->
+<!--          </code></pre>-->
         </div>
-        <div class="image card">
-          <h1 class="test_score">18760</h1><h1>Wassim Jabbour</h1>
-<!--          TODO: Proper scores-->
-          <h3>Bit Mask Multi-Solver</h3>
-          <p>
-            The main challenge was coming up with the idea of using a 2D array of bitmasks instead of a 3D array of booleans to store the possibilities of each cell. Also, to come up with the 2 phases (insertion, filtering) of the iterative part, I had to do some research about the topic of solving sudokus (stackoverflow, reading papers...).
+
+        <div class="image card flexFont">
+          <h1 class="test_score">18760</h1><h1>Charles Lapierre</h1>
+          <h3>Eliminating Excess Steps</h3>
+          <p class="smaller">
+            I decided to implement some preliminary logic before executing the backtracking because it would reduce the number of variables to change...
           </p>
+<!--          <pre class="smaller" ><code class="language-java">-->
+<!--emptyCells = new ArrayList<Integer>[][]-->
+<!--  solve() {-->
+<!--    for all rows-->
+<!--      for all columns-->
+<!--        if grid[row][col] == 0-->
+<!--            fill emptyCells[row][col] with all possible numbers-->
+<!--          </code></pre>-->
         </div>
-        <div class="image card">
-          <h1 class="test_score winner">20269</h1><h1>Louis Hildebrand</h1>
-          <h3>Bit Fields & Human-Like Techniques</h3>
-          <p>
-            Wherever a Collection would have been used, a custom Bitfield class is used instead. This stores the data in a single 32-bit integer (e.g. the Bitfield with the binary number 0...01101 contains 0, 2, and 3), allowing for quick access/modification using bitwise operations.
-          </p>
-        </div>
+
+          <div class="image card flexFont">
+            <h1 class="test_score winner">20269</h1><h1>Louis Hildebrand</h1>
+            <h3>Human-like Solving</h3>
+            <p class="smaller">
+              The possible values for every blank cell are found at the beginning of the algorithm. Whenever a change is made to the grid, the cells in the same row, column, and block are also updated right away...              </p>
+<!--            <pre class="smaller" ><code class="language-java">-->
+<!--class Bitfield {-->
+<!--  int data-->
+
+<!--  add(int num):-->
+<!--    int mask = 1 << num-->
+<!--    this.data = this.data | mask-->
+
+<!--  // Checks if another Bitfield is a subset of this one-->
+<!--  contains(Bitfield subset):-->
+<!--    int intersection = subset.data | this.data-->
+<!--    return intersection == this.data-->
+<!--}-->
+<!--          </code></pre>-->
+          </div>
+
       </div>
 
     </div>
@@ -129,7 +162,7 @@
     <div class="section__text" id="leaderboard">
       <h2>The Chart Toppers</h2>
       <h3>
-          In our competitive final assignment, these students took their projects to the next level, creating some of the fastest chess sudoku solvers in the world. Learn more about their techniques here.
+          In our competitive final assignment, these students took their projects to the next level, creating some of the fastest chess sudoku solvers in the world. Learn more about their techniques on <a href="http://onfactorial.com/stories">onfactorial.com/stories</a>.
       </h3>
       <a href="http://onfactorial.com/"><h3>See the Results</h3></a>
     </div>
@@ -228,6 +261,7 @@
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/plugin/prism-light.js"></script>
 
 
 <!-- Add your site or application content here -->
@@ -238,6 +272,25 @@
 <script src="js/slideshow.js"></script>
 <script src="js/stacked-slideshow.js"></script>
 
+<script>
+  flexFont = function () {
+    var divs = document.getElementsByClassName("flexFont");
+    for(var i = 0; i < divs.length; i++) {
+      var relFontsize = divs[i].offsetWidth*0.05;
+      divs[i].style.fontSize = relFontsize+'px';
+    }
+  };
+
+  window.onload = function(event) {
+    flexFont();
+  };
+  window.onresize = function(event) {
+    flexFont();
+  };
+</script>
+
+
+
 
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
 <script>
@@ -246,4 +299,12 @@
 </script>
 <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
+<style>
+  .flexFont {
+  }
+
+  .smaller {
+    font-size: 0.7em;
+  }
+</style>
 </html>

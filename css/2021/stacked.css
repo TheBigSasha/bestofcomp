@@ -131,9 +131,29 @@ https://www.cssscript.com/polaroid-like-stacked-image-slideshow/
 }
 
 .card h1{
-  font-size: min(4rem,5vw);
+ /*font-size: calc(min(100pt, min(7vw,25%))/1.2);*/
   display: inline;
+  font-weight: bolder;
 }
+
+/*.card h2{*/
+/*  font-size: calc(min(100pt, min(7vw,25%))/1.5);*/
+/*  font-weight: normal;*/
+/*}*/
+
+/*.card h3{*/
+/*  font-size: calc(min(100pt, min(7vw,25%))/1.7);*/
+/*  font-weight: lighter;*/
+/*}*/
+
+/*.card p{*/
+/*  font-size: calc(min(100pt, min(7vw,25%))/1.7);*/
+/*  font-weight: normal;*/
+/*}*/
+
+/*.card code{*/
+/*  font-size: calc(min(100pt, min(7vw,25%))/1.7);*/
+/*}*/
 
 .test_score{
   font-family:'JetBrains Mono', monospace;

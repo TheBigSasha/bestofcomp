@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="Populate 3d View">
-      <change afterPath="$PROJECT_DIR$/img/2021/Rocscience Info Viewer.pdf" afterDir="false" />
+    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="Fixup clickability of elements">
+      <change afterPath="$PROJECT_DIR$/css/2021/plugin/prism-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/plugin/prism-light.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3d.html" beforeDir="false" afterPath="$PROJECT_DIR$/3d.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/2021/scrolling.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/2021/scrolling.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/2021/threed.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/2021/threed.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/2021/threed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/2021/threed.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/2021/stacked.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/2021/stacked.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,14 +143,7 @@
       <workItem from="1620095208882" duration="2165000" />
       <workItem from="1620097541934" duration="13157000" />
       <workItem from="1620146283180" duration="599000" />
-      <workItem from="1620156985600" duration="2829000" />
-    </task>
-    <task id="LOCAL-00003" summary="Add dviz screeny">
-      <created>1608410052293</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1608410052293</updated>
+      <workItem from="1620156985600" duration="5633000" />
     </task>
     <task id="LOCAL-00004" summary="Beautify the site">
       <created>1608412909338</created>
@@ -489,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620108892976</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Fixup clickability of elements">
+      <created>1620192682522</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1620192682523</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,7 +508,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add new projects" />
     <MESSAGE value="Swap out video" />
     <MESSAGE value="Update video link" />
     <MESSAGE value="update video" />
@@ -534,7 +532,20 @@
     <MESSAGE value="Add 3d flow properly" />
     <MESSAGE value="Code background :matrix:" />
     <MESSAGE value="Populate 3d View" />
-    <option name="LAST_COMMIT_MESSAGE" value="Populate 3d View" />
+    <MESSAGE value="Fixup clickability of elements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixup clickability of elements" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/code.html</url>
+          <line>288</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
