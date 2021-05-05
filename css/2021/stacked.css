@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+/*
+Based on:
+https://www.cssscript.com/polaroid-like-stacked-image-slideshow/
+*/
+
+.image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 40vw;
+  max-height: 80vh;
+  margin-top: -110px;
+  margin-left: 5%;
+  /*border: 5px solid #fff;*/
+  border-bottom-width: 15px;
+  -moz-box-shadow: 0 2px 5px rgba(30, 30, 30, 0.25);
+  -webkit-box-shadow: 0 2px 5px rgba(30, 30, 30, 0.25);
+  box-shadow: 0 2px 5px rgba(30, 30, 30, 0.25);
+  z-index: 2;
+  -moz-transition: -moz-transform 0.3s ease-in-out;
+  -o-transition: -o-transform 0.3s ease-in-out;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
+
+@media(max-aspect-ratio: 1/1){
+
+  .image {
+    position: absolute;
+    alignment: center;
+    top: 0;
+    left: 0;
+    max-width: 80vw;
+    max-height: 40vh;
+    margin-top: -30px;
+    margin-left: 10vw;
+  }
+
+}
+
+.image:first-child {
+  -moz-transform: rotate(8deg);
+  -ms-transform: rotate(8deg);
+  -webkit-transform: rotate(8deg);
+  transform: rotate(8deg);
+}
+
+.image:nth-child(2) {
+  -moz-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  -webkit-transform: rotate(2deg);
+  transform: rotate(2deg);
+}
+
+.image:nth-child(3) {
+  -moz-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  -webkit-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+
+.image:nth-child(4) {
+  -moz-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+
+.image:last-child {
+  -moz-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+}
+
+.images:hover .image:nth-child(4) {
+  -moz-transform: rotate(10deg) translateX(50px);
+  -ms-transform: rotate(10deg) translateX(50px);
+  -webkit-transform: rotate(10deg) translateX(50px);
+  transform: rotate(10deg) translateX(50px);
+}
+
+.images:hover .image:nth-child(3) {
+  -moz-transform: rotate(3deg) translateX(75px);
+  -ms-transform: rotate(3deg) translateX(75px);
+  -webkit-transform: rotate(3deg) translateX(75px);
+  transform: rotate(3deg) translateX(75px);
+}
+
+.images:hover .image:nth-child(2) {
+  -moz-transform: rotate(-2deg) translateX(-50px);
+  -ms-transform: rotate(-2deg) translateX(-50px);
+  -webkit-transform: rotate(-2deg) translateX(-50px);
+  transform: rotate(-2deg) translateX(-50px);
+}
+
+.images:hover .image:first-child {
+  -moz-transform: rotate(-8deg) translateX(-75px) translateY(-10px);
+  -ms-transform: rotate(-8deg) translateX(-75px) translateY(-10px);
+  -webkit-transform: rotate(-8deg) translateX(-75px) translateY(-10px);
+  transform: rotate(-8deg) translateX(-75px) translateY(-10px);
+}
+
+.image.slide-right {
+  -moz-transform: rotate(120deg) translateX(250px);
+  -ms-transform: rotate(120deg) translateX(250px);
+  -webkit-transform: rotate(120deg) translateX(250px);
+  transform: rotate(120deg) translateX(250px);
+}
+
+.image.slide-left {
+  -moz-transform: rotate(-120deg) translateX(-250px);
+  -ms-transform: rotate(-120deg) translateX(-250px);
+  -webkit-transform: rotate(-120deg) translateX(-250px);
+  transform: rotate(-120deg) translateX(-250px);
+}
+
+.image.back { z-index: 1; }
+
+.card{
+  background: white;
+  width: 50vw;
+  height: 80vh;
+  color: black;
+  padding: 30pt;
+  border-radius: 20px;
+  overflow: hidden;
+
+}
+
+.card h1{
+ /*font-size: calc(min(100pt, min(7vw,25%))/1.2);*/
+  display: inline;
+  font-weight: bolder;
+}
+
+/*.card h2{*/
+/*  font-size: calc(min(100pt, min(7vw,25%))/1.5);*/
+/*  font-weight: normal;*/
+/*}*/
+
+/*.card h3{*/
+/*  font-size: calc(min(100pt, min(7vw,25%))/1.7);*/
+/*  font-weight: lighter;*/
+/*}*/
+
+/*.card p{*/
+/*  font-size: calc(min(100pt, min(7vw,25%))/1.7);*/
+/*  font-weight: normal;*/
+/*}*/
+
+/*.card code{*/
+/*  font-size: calc(min(100pt, min(7vw,25%))/1.7);*/
+/*}*/
+
+.test_score{
+  font-family:'JetBrains Mono', monospace;
+  display: inline;
+  margin-inline-end: 15px;
+  font-size: 2em;
+}
+
+.winner{
+  font-weight: 800;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;  text-shadow: none;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.lottieWrapper{
+  width: 300vw;
+  height: 300vw;
+  position: fixed;
+  top: 0;
+
+}
+
+.lottieWrapper {
+
+}
+.lottieWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+}

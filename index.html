@@ -3,9 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>
-    Best of Comp
-  </title>
+  <title>Best of Comp</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -17,18 +15,17 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/2021/main.css">
+  <link rel="stylesheet" href="css/2021/scrolling.css">
+  <link rel="stylesheet" href="css/2021/stacked.css">
+  <link rel="stylesheet" href="css/2021/businesscards.css">
+  <link rel="stylesheet" href="css/2021/plugin/prism-light.css">
+  <!--  Library for slideshows-->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
   <meta name="theme-color" content="#fafafa">
-  <script type="text/javascript" src="js/canvas.js" async></script>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/card.css" />
-
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-NG6HSTPCTR"></script>
   <script>
@@ -38,273 +35,287 @@
 
     gtag('config', 'G-NG6HSTPCTR');
   </script>
+
 </head>
-
 <body>
-<div class="videoWrapper"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/1gYmJpv6R8c?autoplay=1&controls=0&loop=1&rel=0" frameborder="0" allow="accelerometer; loop; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<img>
+<div class="background"></div>
+
+<div class="section">
+  <div class="section__hero">
+    <div
+      class="section__img__inner">
+      <div class="lottieWrapper">
+        <!--        <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="2000" height="1200" src="https://www.youtube.com/embed/K4fM17SfYAs?autoplay=1&amp;controls=0&amp;disablekb=1&amp;fs=0&amp;iv_load_policy=3&amp;loop=1&amp;modestbranding=1&amp;playsinline=1&amp;rel=0&amp;showinfo=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fsashaphoto.ca&amp;widgetid=1"></iframe>-->
+<!--        <video id="vid" autoplay loop muted>-->
+<!--          <source src="img/hero/demoreel.mp4" type="video/mp4" >-->
+<!--          &lt;!&ndash;          <source src="media/shuttle.ogv" type="video/ogg">&ndash;&gt;-->
+<!--          Your browser does not support the HTML5 Video element.-->
+<!--        </video>-->
+        <iframe src="img/data.html"></iframe>
+        <script>
+          document.getElementById('vid').play();
+        </script>
+      </div>
+    </div>
+  </div>
+  <div class="section__body">
+    <div class="section__text">
+      <h2>Best of Comp</h2>
+<!--      TODO: https://codepen.io/zitrusfrisch/pen/fjbal-->
+      <h3>
+        Winter 2021 Showcase
+      </h3>
+    </div>
+  </div>
+
+
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<!--  //TODO: https://codepen.io/carolirod/pen/QWNXRYW-->
+  <lottie-player src="https://assets7.lottiefiles.com/private_files/lf30_NnBW3K.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
 </div>
 
-<titles class="titles" style="--aspect-ratio: 16 / 9;">
-  <h1>Fall 2020's Top Hits</h1>
-  <h2>The best debuggers, coolest demos, and most creative GUIs</h2>
-</titles>
-
-<space class="space" style="--size: 10px;"></space>
-<main class="main">
-  <h1><a style="color: var(--text-normal)" href="https://sashaphotoca.files.wordpress.com/2020/12/saa03769-70-200f4.jpg">Assignment 1</a></h1>
-
-  <section class="section">
-    <h2>Zahur Ashrafuzzaman</h2>
-    <p>Tower defense game based on the first assignment, with bees and hornets.</p>
-    <img class="section-img" src="https://github.com/croissantfriend/BeeGameCOMP250/raw/master/BeeGameGUI.png" alt="Bee game screeny">
-    <tags class="tags">
-      <a href="#" >Assignment 1</a>
-      <a href="#" >Fun Demo</a>
-      <a href="#" >Swing GUI</a>
-    </tags>
-    <a href="https://github.com/croissantfriend/BeeGameCOMP250" class="info-link">View on GitHub...</a>
-  </section>
-
-  <section class="section">
-    <h2>Allison Mazurek</h2>
-    <p>Tower defense game based on the first assignment, with bees and hornets.</p>
-    <img class="section-img" src="https://github.com/allisonmazurek/BeeGameCOMP250/raw/master/GUIsnapshot.jpg" alt="Bee game screeny">
-    <tags class="tags">
-      <a href="#" >Assignment 1</a>
-      <a href="#" >Fun Demo</a>
-      <a href="#" >Swing GUI</a>
-    </tags>
-    <a href="https://github.com/allisonmazurek/BeeGameCOMP250" class="info-link">View on GitHub...</a>
-  </section>
-
-  <h1>Assignment 2</h1>
-  <section class="section">
-    <h2>Cecile Dai</h2>
-    <p>Command line tester</p>
-    <tags class="tags">
-      <a>Assignment 2</a>
-      <a>Tester</a>
-    </tags>
-    <a href="https://drive.google.com/file/d/1ejkoCW5YW_cj0Bpq9tvnFD3fnxbiZNau/view?usp=sharing" class="info-link">View on Google Drive...</a>
-  </section>
-
-  <section class="section">
-  <h2>Josh Lin</h2>
-  <p>Extremely thorough A2 Junit Tester.</p>
-  <tags class="tags">
-    <a>Assignment 2</a>
-    <a>Tester</a>
-    <a>JUnit</a>
-    <a>Gradle</a>
-  </tags>
-  <a href="https://github.com/meow10811/PolynomialTestSuite" class="info-link">View on GitHub...</a>
-  </section>
-
-  <section class="section">
-    <h2>Huub de Jong</h2>
-    <p>A2 Megatester.</p>
-    <tags class="tags">
-      <a>Assignment 2</a>
-      <a>Tester</a>
-      <a>Command line</a>
-    </tags>
-    <a href="https://drive.google.com/file/d/1K-lvKeft78TfTjRyeryO7dR0AgRp6lY_/view?usp=sharing" class="info-link">View on Google Drive...</a>
-  </section>
-
-  <h1>Assignment 3</h1>
-
-  <section class="section">
-    <h2>Josh Lin</h2>
-    <p>A visualizer for A3 which lets users interact with the dog tree.</p>
-    <img class="section-img" src="https://github.com/TheBigSasha/bestofcomp250/blob/master/img/meow10811%20-%20A3%20Dog%20Visualizer.png?raw=true" alt="DViz screeny">
-    <tags class="tags">
-      <a href="#" >Assignment 2</a>
-      <a href="#" >Tester</a>
-      <a href="#" >Swing GUI</a>
-      <a>Fun Demo</a>
-    </tags>
-    <a href="https://github.com/meow10811/C250_Assignment3_Debugger" class="info-link">View on GitHub...</a>
-  </section>
-
-  <section class="section">
-    <h2>Zahur Ashrafuzzaman</h2>
-    <p>A3 Multitester - This repository is meant to act as a bundle of several tools and testers others have shared over the past days and weeks.</p>
-    <tags class="tags">
-      <a href="#" >Assignment 3</a>
-      <a href="#" >Tester</a>
-      <a href="#" >JUnit</a>
-      <a href="#" >Swing GUI</a>
-      <a>Gradle</a>
-      <a>Fun Demo</a>
-    </tags>
-    <a href="https://github.com/croissantfriend/COMP_250_A3_Multitester" class="info-link">View on GitHub...</a>
-  </section>
 
 
-  <section class="section">
-    <h2>Sanjeev Lakhwani</h2>
-    <p>COMP 250 A3 tests using a web API for random objects</p>
-    <tags class="tags">
-      <a>Assignment 3</a>
-      <a>Tester</a>
-      <a>Web API</a>
-    </tags>
-  </section>
-
-  <section class="section">
-    <h2>James Xu</h2>
-    <p>COMP 250 A3 JUnit tests</p>
-    <tags class="tags">
-      <a href="#" >Assignment 3</a>
-      <a href="#" >Tester</a>
-      <a href="#" >JUnit</a>
-      <a>Gradle</a>
-    </tags>
-    <a href="https://github.com/jamesxu123/COMP-250-A3-Tests" class="info-link">View on GitHub...</a>
-  </section>
-
-  <section class="section">
-    <h2>Alex P.</h2>
-    <p>COMP 250 A3 command-line tester</p>
-    <tags class="tags">
-      <a>Assignment 3</a>
-      <a>Tester</a>
-    </tags>
-    <a href="https://drive.google.com/file/d/140VNtRuGfp20WyM7NSagn2xLKFtWbQbd/view?usp=sharing" class="info-link">View on GitHub...</a>
-  </section>
+<div class="section">
+  <div class="section__img">
+    <div
+      class="section__img__inner"
+      style="background-image: none;"
+    >
+    <iframe src="code.html" style="min-width: 100vw; min-height: 100vh"></iframe>
+    </div>
 
 
+  </div>
+  <div class="section__body">
+    <div class="section__text blurry_bg" id="testers">
+      <h2>The Code-Breakers</h2>
+      <h3>
+        Through incredible collaboration, talent, and efforts, this year has seen some of COMP250's most robust ever student testers. See the full showcase below.
+      </h3>
+    </div>
+  </div>
+</div>
 
-  <section class="section">
-    <h2>LI Xiang</h2>
-    <p>A tester that is able to automatically test a dog-tree given a .txt input and a .txt expected output.</p>
-    <tags class="tags">
-      <a>Assignment 3</a>
-      <a>Tester</a>
-    </tags>
-    <a href="https://drive.google.com/file/d/1FCoEAcYZre_VMeYbROSkgyzeuUfcXdmL/view?usp=sharing" class="info-link">View on Google Drive...</a>
-  </section>
+<div class="section">
+  <div class="section__img">
+    <div
+      class="section__img__inner"
+      style="background-image: none;"
+    >
+      <div class="images" style="transform: translateY(20vh)">
+        <div class="image card flexFont">
+          <h1 class="test_score">14487</h1><h1>Emma Tomiuk</h1>
+          <h3>Human-like Solving</h3>
+          <p class="smaller">
+            The aspect of my code that greatly optimized the performance was the use of a hashtable that mapped keys – integers that represented a specific cell on the sudoku grid...
+          </p>
+<!--          <pre ><code class="language-java">-->
+<!--            void initializeMatrix(){-->
+<!--     for(every entry in the possibilities matrix)-->
+<!--          store a series of N 1s, where N is the size^2 of the sudoku (9 for a 3x3)-->
+<!--          //As at the beginning we assume every cell can store every number-->
+
+<!--     for(every entry in the sudoku grid)-->
+<!--          if(entry is not 0)-->
+<!--                apply the bitmask to the affected squares in the possibilities matrix (row, col, ...)-->
+<!--                //Applying the bitmask means setting the corresponding digit of the bitfield to 0-->
+<!-- }-->
+<!--          </code></pre>-->
+        </div>
+
+        <div class="image card flexFont">
+          <h1 class="test_score">18760</h1><h1>Charles Lapierre</h1>
+          <h3>Eliminating Excess Steps</h3>
+          <p class="smaller">
+            I decided to implement some preliminary logic before executing the backtracking because it would reduce the number of variables to change...
+          </p>
+<!--          <pre class="smaller" ><code class="language-java">-->
+<!--emptyCells = new ArrayList<Integer>[][]-->
+<!--  solve() {-->
+<!--    for all rows-->
+<!--      for all columns-->
+<!--        if grid[row][col] == 0-->
+<!--            fill emptyCells[row][col] with all possible numbers-->
+<!--          </code></pre>-->
+        </div>
+
+          <div class="image card flexFont">
+            <h1 class="test_score winner">20269</h1><h1>Louis Hildebrand</h1>
+            <h3>Human-like Solving</h3>
+            <p class="smaller">
+              The possible values for every blank cell are found at the beginning of the algorithm. Whenever a change is made to the grid, the cells in the same row, column, and block are also updated right away...              </p>
+<!--            <pre class="smaller" ><code class="language-java">-->
+<!--class Bitfield {-->
+<!--  int data-->
+
+<!--  add(int num):-->
+<!--    int mask = 1 << num-->
+<!--    this.data = this.data | mask-->
+
+<!--  // Checks if another Bitfield is a subset of this one-->
+<!--  contains(Bitfield subset):-->
+<!--    int intersection = subset.data | this.data-->
+<!--    return intersection == this.data-->
+<!--}-->
+<!--          </code></pre>-->
+          </div>
+
+      </div>
+
+    </div>
 
 
-<h1>Final</h1>
+  </div>
+  <div class="section__body">
+    <div class="section__text" id="leaderboard">
+      <h2>The Chart Toppers</h2>
+      <h3>
+          In our competitive final assignment, these students took their projects to the next level, creating some of the fastest chess sudoku solvers in the world. Learn more about their techniques on <a href="http://onfactorial.com/stories">onfactorial.com/stories</a>.
+      </h3>
+      <a href="http://onfactorial.com/"><h3>See the Results</h3></a>
+    </div>
+  </div>
+</div>
 
-  <section class="section">
-    <h2>LI Xiang</h2>
-    <p>SearchWindow is a GUI made for final project. You enter a keyword and search for result, just like what you do on a real search engine. The website file "HoF.xml" is also attached.</p>
-    <img class="section-img" src="https://github.com/TheBigSasha/bestofcomp250/blob/master/img/LI%20Xiang%20-%20SearchWindow%20Screenshot.png?raw=true" alt="Search Window Screenshot">
-    <tags class="tags">
-      <a href="#" >Assignment 4</a>
-      <a href="#" >Graphical Test</a>
-      <a href="#" >Swing GUI</a>
-    </tags>
-    <a href="https://drive.google.com/file/d/13qYcZ7th0yHrzG74eybkw5kq29Mc5Zc0/view" class="info-link">View SearchWindow on Google Drive...</a>
-    <a href="https://drive.google.com/file/d/1iFIODNR3vUECk7ThR_AYFi9WALaPSOO6/view" class="info-link">View HoF.xml on Google Drive...</a>
-  </section>
+<!--<div class="section">-->
+<!--  <div class="section__img">-->
+<!--    <div-->
+<!--      class="section__img__inner"-->
+<!--      style="background-image: none;"-->
+<!--    >-->
+<!--      <div class="images" style="transform: translateY(20vh)">-->
+<!--        <img class="image" src="https://sashaphotoca.files.wordpress.com/2018/08/brw-poster-b1.jpg?w=1000px&h=">-->
+<!--        <img class="image" src="https://sashaphotoca.files.wordpress.com/2019/05/sparky-photoshop-v5.jpg?w=1920&h=">-->
+<!--        <div class="image card" >-->
+<!--          <h1>Chess</h1>-->
+<!--          <h2>Wassim Jabbour</h2>-->
+<!--          <p>A fully implemented game of chess with a GUI and an alpha-beta pruning opponent.</p>-->
+<!--          <img src="img/2021/tn-wassim-chess.png" alt="chess-pic"/>-->
+<!--          <a href="https://github.com/WassimJabz/Chess">View on GitHub</a>-->
+<!--        </div>-->
+<!--      </div>-->
 
-  <section class="section">
-    <h2>James Xu</h2>
-    <p>A Python script which creates large XMLs for testing the final assignment. Posted to Piazza.</p>
-    <tags class="tags">
-      <a>Assignment 4</a>
-      <a>Command Line</a>
-      <a>Python</a>
-    </tags>
-    <a href="https://gist.github.com/jamesxu123/66359eb79c76d26154e088cd3fef0e6c" class="info-link">View Gist on GitHub...</a>
-  </section>
+<!--    </div>-->
 
-  <section class="section">
-    <h2>Charlotte Volk</h2>
-    <p>Tester using massive graphs for the final assignment. Posted to Piazza.</p>
-    <tags class="tags">
-      <a href="#" >Assignment 4</a>
-      <a href="#" >Command Line</a>
-      <a href="#" >Tester</a>
-    </tags>
-    <a href="https://github.com/charlottevolk/250-Final-Project-Tester" class="info-link">View on GitHub...</a>
-  </section>
 
-  <section class="section">
-    <h2>Allison Mazurek</h2>
-    <p>COMP 250 Final JUnit tests</p>
-    <tags class="tags">
-      <a href="#" >Assignment 4</a>
-      <a href="#" >Tester</a>
-      <a href="#" >JUnit</a>
-      <a>Gradle</a>
-    </tags>
-    <a href="https://github.com/allisonmazurek/TesterFinalProject_COMP_250" class="info-link">View on GitHub...</a>
-  </section>
+<!--  </div>-->
+<!--  <div class="section__body">-->
+<!--    <div class="section__text" id="creators">-->
+<!--      <h2>The Game Shakers</h2>-->
+<!--      <h3>-->
+<!--        Taking course concepts and running with them, these students made projects beyond COMP250!-->
+<!--      </h3>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
 
-  <section class="section">
-    <h2>Zahur Ashrafuzzaman</h2>
-    <p>A compilation of many A4 testers into one unified project.</p>
-    <tags class="tags">
-      <a>Assignment 4</a>
-      <a>Junit</a>
-      <a>Tester</a>
-      <a>Swing GUI</a>
-    </tags>
-    <a href="https://github.com/croissantfriend/COMP250_FinalProject_Multitester" class="info-link">View on GitHub...</a>
-  </section>
+<div class="section">
+  <div class="section__img">
+    <div
+      class="section__img__inner"
+      style="background: none;"
+    >
 
-  <h1>Other</h1>
 
-    <section class="section">
-    <h2>Sanjeev Lakhwani</h2>
-    <p>Minesweeper Game</p>
-    <img class="section-img" src="https://github.com/TheBigSasha/bestofcomp250/blob/master/img/Sanjeev%20Lakhwani%20-%20Game.png?raw=true" alt="Minesweeper">
-    <tags class="tags">
-      <a href="#" >Game</a>
-      <a href="#" >Command line</a>
-    </tags>
-  </section>
+      <iframe src="3d.html" width="100%" height="100%">
+        <p>Your browser does not support iframes.</p>
+        <a rel="noopener" href="3d.html" target="_blank">Click me!</a>
+      </iframe>
 
-  <section class="section">
-    <h2>Allison Mazurek</h2>
-    <p>Stack & Queue Demo</p>
-    <img class="section-img" src="img/minStackGUI.png" alt="Min Stack visualzier gui screeny">
-    <tags class="tags">
-      <a>Swing GUI</a>
-      <a>Fun demo</a>
-      <a>Presentation</a>
-    </tags>
-    <a href="https://github.com/allisonmazurek/PresentationNumberOneCOMP250" class="info-link">View on GitHub...</a>
-  </section>
 
-  <section class="section">
-    <h2>Huub de Jong</h2>
-    <p>COMP themed rap song</p>
-    <audio controls>
-      <source src="audio/HuubRap.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
-    <tags class="tags">
-      <a>Mad bars</a>
-      <a>🔥</a>
-    </tags>
-
-  </section>
-
-</main>
-
-<div align="center" class="submit-your-work">
-  <a-container class="a-container">
-    <a href="https://forms.gle/25LY5cPhnomPeN1C6">Feature your work!</a>
-  </a-container >
+    </div>
+  </div>
 
 </div>
 
-<space class="space" style="--size: 50px;"></space>
 
-<subtle align="center" style="font-size: 16pt">
-  <p>
-    Made with 💖 by <a href="https://sashaphoto.ca/" style="color: white; font-weight: 1000;">sashaphoto.ca</a>
-  </p>
-</subtle>
-  <!-- Add your site or application content here -->
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+<!--<div class="section">-->
+<!--  <div class="section__img">-->
+<!--    <div-->
+<!--      class="section__img__inner"-->
+<!--      style="background-image: none;"-->
+<!--    >-->
+<!--      <div>-->
+<!--        <div class="tariffCards">-->
+<!--          <div class="economy">-->
+<!--            <img src=none alt="Business" height="74">-->
+<!--            <h3>Business Class</h3>-->
+<!--            <span>Full Insurance</span>-->
+<!--          </div>-->
+<!--          <div class="first">-->
+<!--            <img src=none alt="Business" height="74">-->
+<!--            <h3>Business Class</h3>-->
+<!--            <span>Full Insurance</span>-->
+<!--          </div>-->
+<!--          <div class="business">-->
+<!--            <img src=none alt="Business" height="74">-->
+<!--            <h3>Business Class</h3>-->
+<!--            <span>Full Insurance</span>-->
+<!--          </div>-->
+<!--      </div>-->
+
+<!--    </div>-->
+<!--  </div>-->
+<!--    <div class="section__body">-->
+<!--      <div class="section__text" id="bcs">-->
+<!--        <h2>Business Cards</h2>-->
+<!--        <h3>-->
+<!--          Thoughtful design at every corner-->
+<!--        </h3>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/plugin/prism-light.js"></script>
+
+
+<!-- Add your site or application content here -->
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+<script src="js/scrolling.js"></script>
+<script src="js/slideshow.js"></script>
+<script src="js/stacked-slideshow.js"></script>
+
+<script>
+  flexFont = function () {
+    var divs = document.getElementsByClassName("flexFont");
+    for(var i = 0; i < divs.length; i++) {
+      var relFontsize = divs[i].offsetWidth*0.05;
+      divs[i].style.fontSize = relFontsize+'px';
+    }
+  };
+
+  window.onload = function(event) {
+    flexFont();
+  };
+  window.onresize = function(event) {
+    flexFont();
+  };
+</script>
+
+
+
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
+<style>
+  .flexFont {
+  }
 
+  .smaller {
+    font-size: 0.7em;
+  }
+</style>
 </html>

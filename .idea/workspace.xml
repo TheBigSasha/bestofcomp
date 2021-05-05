@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="Change site title :sparkles:">
+    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment=":star: picture lock :star:">
+      <change afterPath="$PROJECT_DIR$/anim/BOC2021.aep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anim/big-inner.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anim/big-outer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anim/icons.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anim/small-outer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anim/spinner_1.ai" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3d.html" beforeDir="false" afterPath="$PROJECT_DIR$/3d.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +32,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -56,15 +70,21 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alexa\IdeaProjects\bestofcomp\js" />
+      <recent name="C:\Users\alexa\IdeaProjects\bestofcomp\img\2021" />
+      <recent name="C:\Users\alexa\IdeaProjects\bestofcomp\css\2021" />
+      <recent name="C:\Users\alexa\IdeaProjects\bestofcomp\css" />
       <recent name="C:\Users\alexa\WebstormProjects\bestofcomp250\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alexa\IdeaProjects\bestofcomp\css\2021" />
       <recent name="C:\Users\alexa\WebstormProjects\bestofcomp250\img" />
     </key>
   </component>
@@ -81,6 +101,28 @@
       </method>
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bestofcomp250/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="bestofcomp250" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -101,41 +143,12 @@
       <workItem from="1608527399170" duration="17628000" />
       <workItem from="1617216515715" duration="1584000" />
       <workItem from="1617979153869" duration="2236000" />
-    </task>
-    <task id="LOCAL-00001" summary="Add screenshot of SearchEngine">
-      <created>1608403621363</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1608403621363</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Add dviz screeny">
-      <created>1608410014840</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1608410014840</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Add dviz screeny">
-      <created>1608410052293</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1608410052293</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Beautify the site">
-      <created>1608412909338</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1608412909338</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Add video player and cooler UI">
-      <created>1608413624824</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1608413624824</updated>
+      <workItem from="1620009175602" duration="1375000" />
+      <workItem from="1620013217398" duration="6792000" />
+      <workItem from="1620095208882" duration="2165000" />
+      <workItem from="1620097541934" duration="13157000" />
+      <workItem from="1620146283180" duration="599000" />
+      <workItem from="1620156985600" duration="7742000" />
     </task>
     <task id="LOCAL-00006" summary="Add alt cardview">
       <created>1608417648376</created>
@@ -403,7 +416,84 @@
       <option name="project" value="LOCAL" />
       <updated>1618074628899</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="First draft of the 2021 site">
+      <created>1620017148446</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1620017148446</updated>
+    </task>
+    <task id="LOCAL-00045" summary=":sparkles: add animations :star:">
+      <created>1620021022620</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1620021022620</updated>
+    </task>
+    <task id="LOCAL-00046" summary="It's pretty :heart:">
+      <created>1620021815243</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1620021815243</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Add 3d flow properly">
+      <created>1620099591609</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1620099591609</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Code background :matrix:">
+      <created>1620104601179</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1620104601179</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Code background :matrix:">
+      <created>1620106604980</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1620106604980</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Populate 3d View">
+      <created>1620108063792</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1620108063792</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Populate 3d View">
+      <created>1620108892976</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1620108892976</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Fixup clickability of elements">
+      <created>1620192682522</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1620192682523</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Add better cards :heart:">
+      <created>1620195474750</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1620195474751</updated>
+    </task>
+    <task id="LOCAL-00054" summary=":star: picture lock :star:">
+      <created>1620195690365</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1620195690365</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,15 +513,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="fix units" />
-    <MESSAGE value="Fix overflow on tags" />
-    <MESSAGE value="Add more entries" />
-    <MESSAGE value="Fix image scaling" />
-    <MESSAGE value="Improve card cascade view" />
-    <MESSAGE value="Fix card cascade for very short screens (iPhone X/Xs/11pro)" />
-    <MESSAGE value="Add new projects" />
-    <MESSAGE value="Swap out video" />
-    <MESSAGE value="Update video link" />
     <MESSAGE value="update video" />
     <MESSAGE value="Add cards only view" />
     <MESSAGE value="improve cardview" />
@@ -448,6 +529,37 @@
     <MESSAGE value=":sparkles: add more links :heart:" />
     <MESSAGE value=":sparkles: we never go out of style :music-note:" />
     <MESSAGE value="Change site title :sparkles:" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change site title :sparkles:" />
+    <MESSAGE value="First draft of the 2021 site" />
+    <MESSAGE value=":sparkles: add animations :star:" />
+    <MESSAGE value="It's pretty :heart:" />
+    <MESSAGE value="Add 3d flow properly" />
+    <MESSAGE value="Code background :matrix:" />
+    <MESSAGE value="Populate 3d View" />
+    <MESSAGE value="Fixup clickability of elements" />
+    <MESSAGE value="Add better cards :heart:" />
+    <MESSAGE value=":star: picture lock :star:" />
+    <option name="LAST_COMMIT_MESSAGE" value=":star: picture lock :star:" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/code.html</url>
+          <line>288</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/img/data.html</url>
+          <line>55</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
