@@ -51,6 +51,7 @@ iframe {
   z-index: 1;
 }
 .section {
+  pointer-events: none;
   display: flex;
   min-height: 100vh;
   position: relative;
@@ -145,6 +146,10 @@ iframe {
   filter: blur(0);
 
 
+}
+
+.section.active {
+  pointer-events: visible;
 }
 
 .section.active iframe {
