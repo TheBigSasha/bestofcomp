@@ -22,6 +22,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 });
 
+window.addEventListener('resize', reportWindowSize);
+
+function  reportWindowSize(){
+  const heightOutput = document.querySelector('#height');
+  const widthOutput = document.querySelector('#width');
+}
+
 function moveCameraAngle(event) {
   const xGap =
     (((event.clientX - window.innerWidth / 2) * 100) /

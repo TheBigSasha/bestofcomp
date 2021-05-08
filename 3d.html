@@ -310,10 +310,16 @@
         See you next semester!
       </h1>
 
-      <lottie-player src="https://assets9.lottiefiles.com/datafiles/gUENLc1262ccKIO/data.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px; transform: translateZ(-30000px);"  loop autoplay></lottie-player>
-      <lottie-player src="anim/icons.json"  background="transparent"  speed="0.07"  style="width: 400vmax; height: 400vmax; transform: translateZ(-11000px) scale3d(8,8,8); position: center; left: 0; bottom: 0;"  loop autoplay></lottie-player>
-      <lottie-player src="anim/big-inner.json"  background="transparent"  speed="0.07"  style="width: 400vmax; height: 400vmax; transform: translateZ(-22000px) scale3d(10,10,10); position: center; left: 0; top: 0;"  loop autoplay></lottie-player>
-<!--      <lottie-player src="anim/small-outer.json"  background="transparent"  speed="0.07"  style="width: 400vmax; height: 400vmax; transform: translateZ(-20000px) scale3d(8,8,8); position: center; left: 0; bottom: 0;"  loop autoplay></lottie-player>-->
+        <lottie-player src="https://assets9.lottiefiles.com/datafiles/gUENLc1262ccKIO/data.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px; transform: translateZ(-30000px);"  class="tierOne" loop autoplay></lottie-player>
+        <lottie-player src="anim/icons.json"  background="transparent"  speed="0.07"  style="width: 400vmax; height: 400vmax; transform: translateZ(-11000px) scale3d(8,8,8); position: center; left: 0; bottom: 0;" class="tierTwo" loop autoplay></lottie-player>
+<!--          <lottie-player src="anim/big-inner.json"  background="transparent"  speed="0.07"  style="width: 400vmax; height: 400vmax; transform: translateZ(-22000px) scale3d(10,10,10); position: center; left: 0; top: 0;" class="tierThree" loop autoplay></lottie-player>-->
+          <!--      <lottie-player src="anim/small-outer.json"  background="transparent"  speed="0.07"  style="width: 400vmax; height: 400vmax; transform: translateZ(-20000px) scale3d(8,8,8); position: center; left: 0; bottom: 0;"  loop autoplay></lottie-player>-->
+
+
+
+      </div>
+
+      </div>
 
     </div>
   </div>
@@ -356,9 +362,73 @@
     font-weight: lighter;
   }
 
-  .scene3D div h3{
+  .scene3D div h3 {
     margin-top: 0;
   }
-</style>
-</html>
+  .tierOne{
+    background: none;
+  }
+  .tierTwo{
+    background: none;
+  }
+  .tierThree{
+    background: none;
+  }
 
+
+  @media screen and (min-height: 700px)  or (min-width: 1200px)  {
+
+    .tierTwo{
+      display: none;
+
+    }
+
+    .tierThree{
+      display: none;
+    }
+
+
+
+  }
+
+  @media not screen {
+    .tierOne{
+      display: none;
+    }
+
+    .tierTwo{
+      display: none;
+
+    }
+
+    .tierThree{
+      display: none;
+    }
+
+  }
+  @media(max-width: 600px){
+    @media not all and (min-resolution:.001dpcm)
+    { @supports (-webkit-appearance:none) {
+
+      .tierTwo{
+        display: none;
+
+      }
+
+      .tierThree{
+        display: none;
+      }
+    }}
+  }
+
+  @media screen and (max-height: 6in) and (max-width: 4in) {
+
+    .tierThree{
+      display: none;
+    }
+
+  }
+
+
+  </style>
+</html>
