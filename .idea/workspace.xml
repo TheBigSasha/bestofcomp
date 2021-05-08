@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="Create one hell of a power virus of a 3d view :star:">
+    <list default="true" id="80ba52c9-cc31-44a2-a22a-6d0792b05fd9" name="Default Changelist" comment="Improve performance :rocket:">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3d.html" beforeDir="false" afterPath="$PROJECT_DIR$/3d.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/threed.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/threed.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +41,9 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$APPLICATION_HOME_DIR$/lib/intellij-xml.jar!/resources/html5-schema/html5/phrase.rnc" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -81,15 +84,13 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,13 +144,8 @@
       <workItem from="1620097541934" duration="13157000" />
       <workItem from="1620146283180" duration="599000" />
       <workItem from="1620156985600" duration="7742000" />
-    </task>
-    <task id="LOCAL-00006" summary="Add alt cardview">
-      <created>1608417648376</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1608417648376</updated>
+      <workItem from="1620441062929" duration="6000" />
+      <workItem from="1620441977861" duration="759000" />
     </task>
     <task id="LOCAL-00007" summary="Fix padding bottom on cascade card view">
       <created>1608417898847</created>
@@ -487,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620195690365</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Improve performance :rocket:">
+      <created>1620247983317</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1620247983318</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -507,7 +510,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="update video" />
     <MESSAGE value="Add cards only view" />
     <MESSAGE value="improve cardview" />
     <MESSAGE value="Improve cardview for embed" />
@@ -532,7 +534,8 @@
     <MESSAGE value="Fixup clickability of elements" />
     <MESSAGE value="Add better cards :heart:" />
     <MESSAGE value=":star: picture lock :star:" />
-    <option name="LAST_COMMIT_MESSAGE" value=":star: picture lock :star:" />
+    <MESSAGE value="Improve performance :rocket:" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improve performance :rocket:" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
